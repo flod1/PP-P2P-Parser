@@ -31,6 +31,7 @@ List of currently supported providers:
     - Bondora Grow Go
     - Estateguru
     - Lande
+    - Twino
     - Mintos
     - Robocash
     - Swaper
@@ -89,6 +90,7 @@ multiple times in Portfolio Performance.
 * `debitumnetwork` - Supports current account statement format (as of 2020-09-08) exported to csv
 * `viainvest` - Supports current account statement (as of 2021-12-12) exported as csv (Withdrawals do not work yet)
 * `lande` - Supports current account statement (as of 2022-12-01) exported as csv (Withdrawals not tested yet)
+* `twino` - Supports current account statement (as of 2023-02-01) exported as csv (Withdrawals not tested yet) fix csv replace ,->. and ;->,
 
 ### Alternative solution for Auxmoney
 

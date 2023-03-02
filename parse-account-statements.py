@@ -86,6 +86,7 @@ def parse_args():
             "robocash",
             "swaper",
             "lande",
+            "twino",
             "viainvest",
             "estateguru_en",
         ],

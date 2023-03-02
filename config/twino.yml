@@ -1,0 +1,13 @@
+---
+type_regex: !!map
+  deposit: "^$"
+  interest: "(.*INTEREST$)|(^REFERRAL)"
+  tax: "(.*WITHHOLDING_TAX.*)"
+
+csv_fieldnames:
+  booking_date: 'Processing Date'
+  booking_date_format: '%d.%m.%Y %H:%M'
+  booking_details: 'Description'
+  booking_id: 'Transaction ID'
+  booking_type: 'Description'
+  booking_value: 'Amount. EUR'
